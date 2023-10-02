@@ -8,4 +8,4 @@ class FizzBuzz:
                 output += "Buzz"
             elif i % 15 == 0:
                 output += "FrisBee"
-        affiche()
+    affiche()
