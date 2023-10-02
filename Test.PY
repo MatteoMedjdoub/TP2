@@ -1,3 +1,5 @@
 import unittest
-import FizzBuzz
+from FizzBuzz import *
+
+class
 
