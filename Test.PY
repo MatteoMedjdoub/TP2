@@ -17,5 +17,5 @@ class MonTest(unittest.TestCase):
     def TearDown(self):
         print("fin de ce test")
     
-    if name=='main':
+    if __name__=='main':
         unittest.main()
