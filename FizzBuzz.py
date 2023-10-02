@@ -1,5 +1,5 @@
 class FizzBuzz:
-    def affiche ():
+    def affiche():
         output = ""
         for i in range(1,101):
             if i % 3 == 0:
@@ -8,3 +8,4 @@ class FizzBuzz:
                 output += "Buzz"
             elif i % 15 == 0:
                 output += "FrisBee"
+        affiche()
