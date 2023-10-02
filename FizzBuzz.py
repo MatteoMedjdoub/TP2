@@ -7,4 +7,4 @@ class FizzBuzz:
             if i % 5 == 0:
                 output += "Buzz"
             elif i % 15 == 0:
-                output = str(i)
+                output += "FrisBee"
