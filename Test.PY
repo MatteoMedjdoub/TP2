@@ -1,5 +1,10 @@
 import unittest
 from FizzBuzz import *
 
-class
+class MonTest(unittest.TestCase):
+
+    def setUp(self):
+        print("Nouveau Test")
+        self.instance=FizzBuzz("premiere_class")
+        
 
