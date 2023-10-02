@@ -8,5 +8,6 @@ class MonTest(unittest.TestCase):
         self.instance=FizzBuzz()
 
     def test_first(self):
+        self.assertTrue(expr="12Fizz")
 
     
