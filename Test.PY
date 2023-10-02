@@ -5,7 +5,7 @@ class MonTest(unittest.TestCase):
 
     def setUp(self):
         print("Nouveau Test")
-        self.instance=FizzBuzz("premiere_class")
+        self.instance=FizzBuzz()
 
 
     def test_affiche(self):
