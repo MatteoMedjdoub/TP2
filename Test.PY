@@ -8,7 +8,7 @@ class MonTest(unittest.TestCase):
         self.instance=FizzBuzz()
 
     def test_first(self):
-        self.assertTrue(expr="12Fizz")
+        self.assertTrue(self.instance.affiche()[0]=="1")
 
 
     def test_last(self):
@@ -17,5 +17,5 @@ class MonTest(unittest.TestCase):
     def TearDown(self):
         print("fin de ce test")
     
-    if __name__=='main':
-        unittest.main()
+if __name__=='__main__':
+    unittest.main()
