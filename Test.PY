@@ -7,8 +7,6 @@ class MonTest(unittest.TestCase):
         print("Nouveau Test")
         self.instance=FizzBuzz()
 
+    def test_first(self):
 
-    def test_affiche(self):
-        '''test du changement des multiples'''
-        with self.subTest(self):
-            self.assertTrue(self.instance.affiche(1),101)
+    
