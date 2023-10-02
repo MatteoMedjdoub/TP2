@@ -10,4 +10,9 @@ class MonTest(unittest.TestCase):
     def test_first(self):
         self.assertTrue(expr="12Fizz")
 
+
+    def test_last(self):
+        self.assertTrue(expr=98FizzBuzz)
+
+    
     
