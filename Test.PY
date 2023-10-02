@@ -12,7 +12,10 @@ class MonTest(unittest.TestCase):
 
 
     def test_last(self):
-        self.assertTrue(expr=98FizzBuzz)
+        self.assertTrue(expr="98FizzBuzz")
 
+    def TearDown(self):
+        print("fin de ce test")
     
-    
+    if name=='main':
+        unittest.main()
