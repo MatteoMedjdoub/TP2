@@ -5,4 +5,6 @@ class FizzBuzz:
             if i % 3 == 0:
                 output += "Fizz"
             if i % 5 == 0:
-    pass
+                output += "Buzz"
+            elif i % 15 == 0:
+                output = str(i)
